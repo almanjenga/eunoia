@@ -1,0 +1,55 @@
+.body-bg {
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {
+  margin-top: 20px; /* Margin above the content */
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align items horizontally */
+  gap: 10px; /* Gap between grid items */
+  width: 400px;
+  margin: 0 auto; /* Center the grid horizontally */
+  background-color: #3498db; /* Blue background color */
+  padding: 20px; /* Padding inside the grid */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.grid img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer; /* Pointer cursor on cards */
+}
+
+.button-container {
+  text-align: center; /* Center align buttons */
+  margin-top: 20px; /* Margin above buttons */
+  position: relative; /* Enable positioning */
+}
+
+.back-home-btn {
+  position: absolute; /* Position absolute for precise placement */
+  left: 1090px; /* Adjust left positioning */
+  top: -458px; /* Adjust top positioning */
+}
+
+.finish-btn, .repeat-btn {
+  margin-right: 10px; /* Margin between buttons */
+}
+
+
+.modal-body {
+  text-align: center; /* Center align modal body text */
+}
+
+.motivational-quote {
+  font-style: italic;
+}
+
+h3 {
+  text-align: center; /* Center align score */
+  margin-top: 20px; /* Margin above score */
+}
